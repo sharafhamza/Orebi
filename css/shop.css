@@ -118,7 +118,7 @@ common css end
     width: 80%;
     column-gap: 40px;
 }
-#main .product .filter .right  .feature ul {
+#main .product .filter .right  .feature select{
     display: flex;
     padding: 12px 0;
     width: 240px;
@@ -126,8 +126,19 @@ common css end
     padding-left: 21px;
     position: relative;
     box-sizing: border-box;
+    appearance: none;
 }
-#main .product .filter .right .show ul{
+#main .product .filter .right  .feature .select{
+    position: relative;
+   
+}
+
+#main .product .filter .right  .feature img {
+    position: absolute;
+    top: 18px;
+    right: 21px;
+}
+#main .product .filter .right .show select{
     display: flex;
     padding: 12px 0;
     width: 140px;
@@ -135,6 +146,15 @@ common css end
     padding-left: 21px;
     position: relative;
     box-sizing: border-box;
+    appearance: none;
+}
+#main .product .filter .right .show .select{
+    position: relative;
+}
+#main .product .filter .right .show img{
+    position: absolute;
+    top: 18px ;
+    right: 21px;
 }
 #main .product .filter .right .show ul li i, .feature ul li i{
     position: absolute;
