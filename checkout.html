@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>checkout</title>
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <!-- =======================
+        navber start
+    ============================ -->
+    <nav>
+        <div class="navber-first">
+            <div class="container flex dm">
+                <div class="logo">
+                    <img src="images/Logo.png" alt="">
+                </div>
+                <div class="navitems">
+                    <ul class="flex">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="demo"></div>
+                
+               </div>
+        </div>
+       
+       <div class="navber-bottom ">
+            <div class="container dm flex">
+            <div class="category">
+                <div class="before">
+                    <p>Shop by Category</p>
+                </div>
+                    
+            </div>
+            <div class="search">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search Products">
+                </div>
+                
+            </div>
+            <div class="icon">
+               <div class="left">
+                <a href="login.html">
+                    <img src="images/user.png" alt="">
+                <img class="dot" src="images/down-filled-triangular-arrow.png" alt="">
+                </a>                
+               </div>
+               <div class="right">
+                <a href="cart.html">
+                    <img src="images/shopping-cart.png" alt="">
+                </a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    </nav>
+        <!-- =======================
+        navber end
+    ============================ -->
+
+
+    <div class="title dm">
+        <div class="container">
+            <div class="title">
+                <h2>Checkout</h2>
+                <ul>
+                    <li>Home <img src="images/right-arrow.png" alt=""></li>
+                    <li>Checkout</li>
+                </ul>
+            </div>
+        </div>
+    </div>       
+
+    <div class="first">
+       <div class="container dm">
+        <p>Have a coupon? <span>Click here to enter your code</span> </p>
+       </div>
+    </div>
+
+    <div class="billing">
+        <div class="container dm">
+            <form action="#">
+                <h2>Billing Details</h2>
+                <div class="flex">
+                    <div class="firstname">
+                        <label for="first">First Name *</label>
+                        <input id="first" type="text" placeholder="First Name">
+                    </div>
+                    <div class="lastname">
+                        <label for="lastname">Last Name *</label>
+                        <input id="lastname" type="text" placeholder="Last Name">
+                    </div>
+                </div>
+          
+                <div class="Companye Name (optional)">
+                        <label for="op">Companye Name (optional)</label>
+                        <input id="op" type="text" placeholder="Company Name">
+           
+                </div>
+
+                <div class="Country">
+                    <label for="op">Country *</label>
+                    <input id="op" type="text" placeholder="Please select">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="Street Address *">
+                    <label for="Address">Street Address *</label>
+                    <input id="Address" type="text" placeholder="House number and street name">
+               
+                </div>
+                <div class="Street Address *">
+          
+                    <input id="Address" type="text" placeholder="House number and street name">
+               
+                </div>
+                <div class="Town/City *">
+                    <label for="Town/City">Town/City</label>
+                    <input id="Town/City" type="text" placeholder="Town/City">
+               
+                </div>
+                <div class="County (optional)">
+                    <label for="County">Town/City</label>
+                    <input id="County" type="text" placeholder="County">
+               
+                </div>
+                <div class="Post Code *">
+                    <label for="PostCode *">Post Code *</label>
+                    <input id="PostCode *" type="text" placeholder="Post Code ">
+               
+                </div>
+                <div class="Phone *">
+                    <label for="Phone*">Phone *</label>
+                    <input id="Phone*" type="text" placeholder="Phone ">
+               
+                </div>
+                <div class="Email Address *">
+                    <label for="EmailAddress">Email Address *</label>
+                    <input id="EmailAddress" type="text" placeholder="Email Address *">
+               
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container dm">
+            <div class="information">
+            <h2>Additional Information</h2>
+            <h4>Other Notes (optional)</h4>
+            <p>Notes about your order, e.g. special notes for delivery.</p>
+            </div>
+    </div>
+
+    <div class="order dm">
+        <div class="container">
+            <h2>Your Order</h2>
+            <div class="product">
+                <div class="item">
+                    <div class="inner-item">
+                        <h4>Product</h4>
+                    </div>
+                    <div class="inner-item">
+                        <h4>Total</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner-item">
+                        <h4>Product name x 1</h4>
+                    </div>
+                    <div class="inner-item ash">
+                        <h4>389.99 $</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner-item">
+                        <h4>Subtotal</h4>
+                    </div>
+                    <div class="inner-item ash">
+                        <h4>389.99 $</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner-item">
+                        <h4>Total</h4>
+                    </div>
+                    <div class="inner-item">
+                        <h4>389.99 $</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container dm">
+        <div class="bank">
+            <div class="firstbank">
+                <input type="checkbox">
+                <p>Bank</p>
+            </div>
+            <img src="shopimages/Notification.png" alt="">
+            <div class="secondbank">
+                <input type="checkbox">
+                <p>Bank 2</p>
+            </div>
+            <div class="lastpera">
+                <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <span>privacy policy.</span></p>
+            </div>
+            <a href="#">Proceed to Bank</a>
+        </div>
+    </div>
+
+    
+
+
+    <!-- =======================
+        Footer start
+    ============================ -->
+    <footer>
+        <div class="container dm">
+            <div class="footeritems">
+                
+                    <div class="item">
+                        <h4>MENU</h4>
+                        <ul>
+                            <li>Home</li>
+                            <li>Shop</li>
+                            <li>About</li>
+                            <li>About</li>
+                            <li>Journal</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h4>SHOP</h4>
+                        <ul>
+                            <li>Category 1</li>
+                            <li>Category 2</li>
+                            <li>Category 3</li>
+                            <li>Category 4</li>
+                            <li>Category 5</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h4>HELP</h4>
+                        <ul>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Conditions</li>
+                            <li>Special E-shop</li>
+                            <li>Shipping</li>
+                            <li>Secure Payments</li>
+                        </ul>
+                    </div>
+         
+      
+                <div class="item location">
+                    <p>(052) 611-5711</br>
+                         company@domain.com</p>
+                
+                    <span>575 Crescent Ave. Quakertown, PA 18951</span>
+                </div>
+                <div class="item logo">
+                    <img src="images/OREBI©.png" alt="">
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="flex">
+                    <div class="left">
+                        <ul class="flex">
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <p>2020 Orebi Minimal eCommerce Figma Template by Adveits</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- =======================
+        Footer end
+    ============================ -->
+</body>
+</html>

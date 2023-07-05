@@ -1,0 +1,493 @@
+/* =================
+common css start   
+==================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1600px ;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.dm{
+    font-family: 'DM Sans', sans-serif;
+}
+.flex{
+    display: flex;
+}
+span{
+    display: inline-block;
+}
+/* =================
+common css end
+==================== */
+#main{
+    margin-top: 125px;
+}
+#main .title {
+    margin-bottom: 130px;
+}
+#main .title h2{
+    font-size: 49px;
+    margin-bottom: 12px;
+}
+#main .title ul{
+    display: flex;
+    column-gap: 12px;
+}
+#main .title ul li img{
+    width: 10px;
+}
+#main .flex{
+    column-gap: 40px;
+}
+/*===================== sideber=============== */
+#main .sideber{
+    width: 20%;
+
+}
+
+#main .sideber ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #F0F0F0;
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+#main .sideber ul li span{
+    color: #767676;
+}
+#main .sideber h4{
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+
+#main .sideber h4 span {
+    transform: rotate(180deg) translateY(-18%);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+#main .sideber .sortcategory, .sortcolor, .sortprice{
+    margin-bottom: 53px;
+}
+#main .sideber .sortcolor ul li{
+    justify-content: flex-start;
+    column-gap: 10px;
+}
+/*===================== sideber css end=============== */
+/*===================== product css start=============== */
+#main .product{
+    width: 80%;
+
+   
+}
+
+#main .product .filter{
+    display: flex;
+}
+#main .product .filter .left{
+    width: 20%;
+}
+#main .product .filter .left img{
+    margin-right: 20px;
+}
+#main .product .filter {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#main .product .filter .right{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    column-gap: 40px;
+}
+#main .product .filter .right  .feature ul {
+    display: flex;
+    padding: 12px 0;
+    width: 240px;
+    border: 1px solid #F0F0F0;
+    padding-left: 21px;
+    position: relative;
+    box-sizing: border-box;
+}
+#main .product .filter .right .show ul{
+    display: flex;
+    padding: 12px 0;
+    width: 140px;
+    border: 1px solid #F0F0F0;
+    padding-left: 21px;
+    position: relative;
+    box-sizing: border-box;
+}
+#main .product .filter .right .show ul li i, .feature ul li i{
+    position: absolute;
+    right: 21px;
+}
+#main .product .filter .right .feature {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+#main .product .filter .right .show{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+/* =================
+product css start  
+==================== */
+
+.product .productitems  .item{
+    width: 25%;
+    height: 465px;
+   
+}
+.product{
+   
+    margin-bottom: 118px;
+}
+.product .title{
+    margin-bottom: 48px;
+}
+.product .title h2{
+    font-size: 39px;
+    font-weight: 700;
+}
+
+
+.product .productitems {
+    display: flex;
+    column-gap: 40px;
+    position: relative;
+    margin-bottom: 62px;
+}
+.product .productitems .item {
+    width: 33%;
+    position: relative;
+    height: 465px;
+}
+.product .productitems .item img{
+    width: 100%;
+}
+.product .productitems .item h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.product .productitems .item .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+.product .productitems .item span{
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+.product .productitems .item a {
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 9px 32px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.product .productitems .item .img-box{
+    position: relative;
+}
+.product .productitems .item .img-box .inner-items {
+    background: white;
+    height: 156px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 22px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.product .productitems .item .img-box .inner-items .inner-item{
+    column-gap: 18px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    box-sizing: border-box;
+    
+
+}
+.product .productitems .item .img-box .inner-items .inner-item:last-child p{
+    font-weight: 700;
+}
+.product .productitems .item:hover .img-box .inner-items{
+    visibility: visible;
+    opacity: 1;
+}
+.product .right-arrow {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    right: 0;
+}
+.product .left-arrow{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    left: 0;
+    z-index: 1;
+}
+#main .count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+#main .count .left{}
+#main .count .left ul{
+    display: flex;
+    column-gap: 15px;
+}
+#main .count .left ul li{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    border: 1px solid #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+    cursor: pointer;
+}
+#main .count .left ul li:first-child{
+    background: #262626;
+    color: white;
+}
+#main .count .left ul li:nth-child(5){
+    border: 0;
+    font-size: 25px;
+}
+#main .count .right{}
+#main .count .right p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #767676;
+}
+
+/* =================
+product css end  
+==================== */
+
+/* =================
+main css end
+==================== */
+/* =================
+common css end
+==================== */
+/* =================
+navber css start
+==================== */
+
+nav {
+
+    background-color: white;
+}
+nav .logo{
+    width: 20%;
+    
+}
+nav .navitems {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    
+}
+nav .navitems ul{
+    column-gap: 40px;
+}
+nav .navitems ul li:first-child{
+    font-weight: 700;
+}
+nav .demo{
+    width: 20%;
+    
+}
+.navber-first{
+    padding: 32px 0;
+}
+.navber-bottom{
+    background-color: #F5F5F3;
+    padding: 25px 0;
+    align-items: center;
+}
+.navber-bottom .category {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    cursor: pointer;
+}
+.navber-bottom .category .before {
+    position: relative;
+    padding-left: 45px;
+}
+
+.navber-bottom .category .before::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #262626;
+}
+.navber-bottom .category .before::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 16px;
+    height: 3px;
+    background-color: #262626;
+}
+
+.navber-bottom .search{
+    width: 60%;
+  
+}
+.navber-bottom .search-box{
+    position: relative;
+    width: 601px;
+    margin: auto; 
+}
+.navber-bottom .search i {
+    position: absolute;
+    top: 17px;
+    right: 21px;
+
+}
+.navber-bottom .search input {
+    width: 601px;
+    padding: 18px 21px;
+    border: 0;
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .search input::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.navber-bottom .icon .left{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navber-bottom .icon img.dot{
+    width: 10px;
+  
+}
+
+/* =================
+Navber css end  
+==================== */
+/* =================
+footer css start
+==================== */
+footer{
+    background: #F5F5F3 ;
+    padding: 55px 0;
+}
+footer .footeritems{
+    display: flex;
+    column-gap: 144px ;
+   
+}
+
+footer .footeritems .item h4{
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+footer .footeritems .item ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6D6D;
+}
+
+footer .footeritems .item p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+footer .footeritems .logo{
+    margin: 0 auto;
+}
+footer .footeritems .item span{
+    color: #6D6D6D;
+}
+footer .footer-bottom {
+    padding-top: 65px;
+    
+}
+footer .footer-bottom .flex{
+    justify-content: space-between;
+}
+footer .footer-bottom .left .flex{
+    column-gap: 26px;
+}
+footer .footer-bottom .right p{
+    color: #6D6D6D;
+
+}
+
+/* =================
+Footer css end
+==================== */

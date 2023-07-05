@@ -1,0 +1,359 @@
+/* =================
+common css start   
+==================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1600px ;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.dm{
+    font-family: 'DM Sans', sans-serif;
+}
+.flex{
+    display: flex;
+}
+span{
+    display: inline-block;
+}
+/* =================
+common css end
+==================== */
+/* =================
+navber css start
+==================== */
+
+nav {
+
+    background-color: white;
+}
+nav .logo{
+    width: 20%;
+    
+}
+nav .navitems {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    
+}
+nav .navitems ul{
+    column-gap: 40px;
+}
+nav .navitems ul li:first-child{
+    font-weight: 700;
+}
+nav .demo{
+    width: 20%;
+    
+}
+.navber-first{
+    padding: 32px 0;
+}
+.navber-bottom{
+    background-color: #F5F5F3;
+    padding: 25px 0;
+    align-items: center;
+}
+.navber-bottom .category {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    cursor: pointer;
+}
+.navber-bottom .category .before {
+    position: relative;
+    padding-left: 45px;
+}
+
+.navber-bottom .category .before::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #262626;
+}
+.navber-bottom .category .before::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 16px;
+    height: 3px;
+    background-color: #262626;
+}
+
+.navber-bottom .search{
+    width: 60%;
+  
+}
+.navber-bottom .search-box{
+    position: relative;
+    width: 601px;
+    margin: auto; 
+}
+.navber-bottom .search i {
+    position: absolute;
+    top: 17px;
+    right: 21px;
+
+}
+.navber-bottom .search input {
+    width: 601px;
+    padding: 18px 21px;
+    border: 0;
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .search input::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.navber-bottom .icon .left{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navber-bottom .icon img.dot{
+    width: 10px;
+  
+}
+
+/* =================
+Navber css end  
+==================== */
+.title {
+    margin-top: 124px;
+    margin-bottom: 124px;
+}
+.title h2{
+    font-size: 49px;
+    margin-bottom: 12px;
+}
+.title ul{
+    display: flex;
+    column-gap: 12px;
+}
+.title ul li img{
+    width: 10px;
+}
+
+/* =================
+cart css start 
+==================== */
+#cart{
+    margin-bottom: 140px;
+}
+#cart .first-row{
+    display: flex;
+    padding-left: 20px ;
+    height: 90px;
+    background: #F5F5F3;
+    align-items: center;
+    border: 1px solid #F0F0F0;
+}
+#cart .first-row .item{
+    width: 25%;
+}
+#cart .second-row{
+    height: 160px;
+    padding: 30px 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid #F0F0F0;
+}
+#cart .second-row .item{
+    width: 25%;
+}
+#cart .second-row .item .flex{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+#cart .second-row .item img{
+    width: 100px;
+    margin-left: 20px;
+}
+#cart .second-row .item h4{
+    font-size: 16px;
+}
+
+#cart .second-row .item ul{
+    width: 140px;
+    border: 1px solid #F0F0F0;
+    display: flex;
+    justify-content: space-around;
+    height: 36px;
+    align-items: center;
+}
+#cart .second-row .item ul li i{
+    font-size: 14px;
+   
+}
+#cart .second-row .item ul li {
+    font-size: 16px;
+    color: #767676;
+}
+#cart .third-row{
+    height: 90px;
+    border: 1px solid #F0F0F0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#cart .third-row ul{
+    width: 255px;
+    border: 1px solid #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    align-items: center;
+    padding: 0 22px;
+    box-sizing: border-box;
+}
+#cart .third-row ul li{
+    color: #767676;
+}
+#cart .third-row .item{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+#cart .carttotals{
+    display: flex;
+    margin-top: 55px;
+}
+#cart .carttotals .left{
+    width: 70%;
+}
+#cart .carttotals .right{
+    width: 30%;
+}
+#cart .carttotals .right h4.fc{
+    font-size: 20px;
+    margin-bottom: 24px;
+    text-align: right;
+}
+#cart .carttotals .right .item{
+    display: flex;
+    align-items: center;
+}
+#cart .carttotals .right .item h4, h5{
+    font-size: 16px;
+
+}
+#cart .carttotals .right .item h5{
+    color: #767676;
+}
+#cart .carttotals .right .item .inner-item{
+    width: 320px;
+    border: 1px solid #F0F0F0;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}#cart .carttotals .right .item:last-child .inner-item h5{
+    color: #262626;
+}
+#cart .carttotals .right .button{
+    text-align: right;
+}
+#cart .carttotals .right a{
+    background: #262626;
+    width: 200px;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+#cart .carttotals .right .inner-item .bc{
+    color: #262626;
+}
+/* =================
+cart css end
+==================== */
+
+
+
+
+
+
+
+
+
+
+/* =================
+footer css start
+==================== */
+footer{
+    background: #F5F5F3;
+    padding: 55px 0;
+}
+footer .footeritems{
+    display: flex;
+    column-gap: 144px ;
+   
+}
+
+footer .footeritems .item h4{
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+footer .footeritems .item ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6D6D;
+}
+
+footer .footeritems .item p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+footer .footeritems .logo{
+    margin: 0 auto;
+}
+footer .footeritems .item span{
+    color: #6D6D6D;
+}
+footer .footer-bottom {
+    padding-top: 65px;
+    
+}
+footer .footer-bottom .flex{
+    justify-content: space-between;
+}
+footer .footer-bottom .left .flex{
+    column-gap: 26px;
+}
+footer .footer-bottom .right p{
+    color: #6D6D6D;
+
+}
+
+/* =================
+Footer css end
+==================== */

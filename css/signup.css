@@ -1,0 +1,399 @@
+/* =================
+common css start   
+==================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1600px ;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.dm{
+    font-family: 'DM Sans', sans-serif;
+}
+.flex{
+    display: flex;
+}
+span{
+    display: inline-block;
+}
+/* =================
+common css end
+==================== */
+/* =================
+navber css start
+==================== */
+
+nav {
+
+    background-color: white;
+}
+nav .logo{
+    width: 20%;
+    
+}
+nav .navitems {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    
+}
+nav .navitems ul{
+    column-gap: 40px;
+}
+nav .navitems ul li:first-child{
+    font-weight: 700;
+}
+nav .demo{
+    width: 20%;
+    
+}
+.navber-first{
+    padding: 32px 0;
+}
+.navber-bottom{
+    background-color: #F5F5F3;
+    padding: 25px 0;
+    align-items: center;
+}
+.navber-bottom .category {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    cursor: pointer;
+}
+.navber-bottom .category .before {
+    position: relative;
+    padding-left: 45px;
+}
+
+.navber-bottom .category .before::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #262626;
+}
+.navber-bottom .category .before::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 16px;
+    height: 3px;
+    background-color: #262626;
+}
+
+.navber-bottom .search{
+    width: 60%;
+  
+}
+.navber-bottom .search-box{
+    position: relative;
+    width: 601px;
+    margin: auto; 
+}
+.navber-bottom .search i {
+    position: absolute;
+    top: 17px;
+    right: 21px;
+
+}
+.navber-bottom .search input {
+    width: 601px;
+    padding: 18px 21px;
+    border: 0;
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .search input::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.navber-bottom .icon .left{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navber-bottom .icon img.dot{
+    width: 10px;
+  
+}
+
+/* =================
+Navber css end  
+==================== */
+
+ .title {
+    margin-top: 125px;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 57px;
+    
+}
+ .title h2{
+    font-size: 49px;
+    margin-bottom: 12px;
+}
+ .title ul{
+    display: flex;
+    column-gap: 12px;
+    margin-bottom: 130px;
+}
+ .title ul li img{
+    width: 10px;
+}
+.title p{
+    width: 644px;
+    color: #767676;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 62px;
+}
+
+.return-cus  h4{
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 54px;
+    margin-bottom: 48px;
+}
+.return-cus  form{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 70px;
+    margin-bottom: 58px;
+}
+.return-cus  form h2{
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 42px;
+    color: #262626;
+}
+
+.return-cus  form label{
+    display: block;
+    font-weight: bold;
+    margin-top: 23px;
+}
+.return-cus  form input {
+    border: 0;
+    border-bottom: 1px solid #F0F0F0;
+    width: 508px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
+
+.return-cus  form input::placeholder{
+    font-size: 14px;
+    color: #767676;
+}
+.return-cus  form input#rev{
+    padding-bottom: 87px;
+    
+}
+.return-cus  form button{
+    width: 200px;
+    background-color: white ;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 0;
+    display: block;
+    margin-top: 30px;
+}
+
+.return-cus  form .flex{
+    column-gap: 40px;
+}
+.cus  form{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 70px;
+    margin-bottom: 58px;
+}
+.cus  form h2{
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 42px;
+    color: #262626;
+}
+
+.cus  form label{
+    display: block;
+    font-weight: bold;
+    margin-top: 23px;
+}
+.cus  form input {
+    border: 0;
+    border-bottom: 1px solid #F0F0F0;
+    width: 508px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
+
+.cus  form input::placeholder{
+    font-size: 14px;
+    color: #767676;
+}
+.return-cus  form input#rev{
+    padding-bottom: 87px;
+    
+}
+.cus  form button{
+    width: 200px;
+    background-color: white ;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 0;
+    display: block;
+    margin-top: 30px;
+}
+
+.cus  form .flex{
+    column-gap: 40px;
+}
+.cus select {
+    border: 0;
+    padding-right: 412px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #767676;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 25px;
+}
+.pass  form{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 70px;
+    margin-bottom: 58px;
+}
+.pass  form h2{
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 42px;
+    color: #262626;
+}
+
+.pass  form label{
+    display: block;
+    font-weight: bold;
+    margin-top: 23px;
+}
+.pass  form input {
+    border: 0;
+    border-bottom: 1px solid #F0F0F0;
+    width: 508px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
+
+.pass  form input::placeholder{
+    font-size: 14px;
+    color: #767676;
+}
+
+.pass  form .flex{
+    column-gap: 40px;
+}
+.last {
+    margin-bottom: 140px;
+}
+.last .multi{
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+.last .flex{
+    column-gap: 33px;
+}
+.last p{
+    font-size: 14px;
+    color: #767676;
+}
+.last input[type=checkbox]{
+    color: black;
+}
+.last label{
+    font-size: 14px;
+    color: #767676;
+}
+.last a{
+    width: 200px;
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 0;
+    display: block;
+    text-align: center;
+}
+/* =================
+footer css start
+==================== */
+footer{
+    background: #F5F5F3;
+    padding: 55px 0;
+}
+footer .footeritems{
+    display: flex;
+    column-gap: 144px ;
+   
+}
+
+footer .footeritems .item h4{
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+footer .footeritems .item ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6D6D;
+}
+
+footer .footeritems .item p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+footer .footeritems .logo{
+    margin: 0 auto;
+}
+footer .footeritems .item span{
+    color: #6D6D6D;
+}
+footer .footer-bottom {
+    padding-top: 65px;
+    
+}
+footer .footer-bottom .flex{
+    justify-content: space-between;
+}
+footer .footer-bottom .left .flex{
+    column-gap: 26px;
+}
+footer .footer-bottom .right p{
+    color: #6D6D6D;
+
+
+}
+
+/* =================
+Footer css end
+==================== */

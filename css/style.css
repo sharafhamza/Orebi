@@ -1,0 +1,640 @@
+/* =================
+common css start   
+==================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1600px ;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.dm{
+    font-family: 'DM Sans', sans-serif;
+}
+.flex{
+    display: flex;
+}
+span{
+    display: inline-block;
+}
+/* =================
+common css end
+==================== */
+/* =================
+navber css start
+==================== */
+
+nav {
+
+    background-color: white;
+}
+nav .logo{
+    width: 20%;
+    
+}
+nav .navitems {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    
+}
+nav .navitems ul{
+    column-gap: 40px;
+}
+nav .navitems ul li:first-child{
+    font-weight: 700;
+}
+nav .demo{
+    width: 20%;
+    
+}
+.navber-first{
+    padding: 32px 0;
+}
+.navber-bottom{
+    background-color: #F5F5F3;
+    padding: 25px 0;
+    align-items: center;
+}
+.navber-bottom .category {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    cursor: pointer;
+}
+.navber-bottom .category .before {
+    position: relative;
+    padding-left: 45px;
+}
+
+.navber-bottom .category .before::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 20px;
+    height: 3px;
+    background-color: #262626;
+}
+.navber-bottom .category .before::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 16px;
+    height: 3px;
+    background-color: #262626;
+}
+
+.navber-bottom .search{
+    width: 60%;
+  
+}
+.navber-bottom .search-box{
+    position: relative;
+    width: 601px;
+    margin: auto; 
+}
+.navber-bottom .search i {
+    position: absolute;
+    top: 17px;
+    right: 21px;
+
+}
+.navber-bottom .search input {
+    width: 601px;
+    padding: 18px 21px;
+    border: 0;
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .search input::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+}
+.navber-bottom .icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.navber-bottom .icon .left{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navber-bottom .icon img.dot{
+    width: 10px;
+  
+}
+
+/* =================
+Navber css end  
+==================== */
+/* =================
+Banner css start 
+==================== */
+#banner{
+
+    background: url("../images/banner.png") no-repeat bottom;
+    background-size: cover;
+    padding: 167px 182px;
+}
+#banner .left{
+    width: 30%;
+    position: relative;
+    padding-left: 111px;
+
+}
+#banner .left::before {
+    content: "";
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 2px;
+    height: 30px;
+    background-color: #262626;
+    z-index: 1;
+}
+#banner .left::after {
+    content: "";
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 2px;
+    height: 120px;
+    background-color: #fff;
+}
+#banner .left h2{
+    font-size: 49px;
+    color: #262626;
+}
+#banner .left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+    
+}
+#banner .left .number p {
+    font-size: 10px;
+    color: #262626;
+    position: absolute;
+    top: 26%;
+    left: -21px;
+    font-weight: 400;
+}
+#banner .left p span{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 33px;
+}
+#banner .left a{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 58px;
+    margin-top: 49px;
+}
+#banner .right{
+    width: 70%;
+   
+    
+
+}
+.banner-bottom{
+    padding: 30px 0;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 144px;
+}
+.banner-bottom .container{
+    justify-content: space-between;
+}
+.banner-bottom .container .item{
+    column-gap: 18px;
+    align-items: center;
+}
+.banner-bottom .container .item span {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+}
+.banner-bottom .container .item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+}
+/* =================
+Banner css end  
+==================== */
+/* =================
+sale css start  
+==================== */
+#sale{
+    margin-bottom: 124px;
+}
+#sale .left{
+    background: url("../images/sale left.png") no-repeat bottom;
+    background-size: cover;
+    width: 50%;
+    height: 780px;
+    padding-left: 64px;
+    padding-bottom: 72px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+#sale .left h2{
+    font-size: 39px;
+}
+#sale .left p, .right .boxone p, .right .boxtwo p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+#sale .left p span, .right .boxone p span, .right .boxtwo p span{
+    font-size: 40px;
+    font-weight: 700;
+    color: #262626;
+}
+#sale .left a{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 58px;
+    margin-top: 65px;
+}
+#sale .right{
+ 
+    width: 50%;
+    height: 780px;
+  
+}
+#sale .flex{
+    column-gap: 40px;
+}
+#sale .right .boxone{
+    height: 370px;
+    background: url("../images/right\ boxone.png");
+    background-size: cover;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-bottom: 66px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+#sale .right .boxone h2, .boxtwo h2{
+    font-size: 39px;
+    color: #262626;
+}
+
+#sale .right .boxone a, .boxtwo a{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 58px;
+    margin-top: 49px;
+}
+#sale .right .boxtwo{
+    height: 370px;
+    background: url("../images/right\ boxtwo.png");
+    background-size: cover;
+    padding-left: 50px;
+    padding-bottom: 66px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* =================
+sale css end  
+==================== */
+/* =================
+Arrivals css start  
+==================== */
+#arrivals{
+   
+    margin-bottom: 118px;
+}
+#arrivals .title{
+    margin-bottom: 48px;
+}
+#arrivals .title h2{
+    font-size: 39px;
+    font-weight: 700;
+}
+
+
+#arrivals .arrivalsitems{
+    column-gap: 40px;
+    position: relative;
+}
+#arrivals .arrivalsitems .item{
+    width: 24%;
+    position: relative;
+    height: 465px;
+}
+#arrivals .arrivalsitems .item img{
+    width: 100%;
+}
+#arrivals .arrivalsitems .item h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#arrivals .arrivalsitems .item .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+#arrivals .arrivalsitems .item span{
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+#arrivals .arrivalsitems .item a {
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 9px 32px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#arrivals .arrivalsitems .item .img-box{
+    position: relative;
+}
+#arrivals .arrivalsitems .item .img-box .inner-items {
+    background: white;
+    height: 156px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 22px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+#arrivals .arrivalsitems .item .img-box .inner-items .inner-item{
+    column-gap: 18px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    box-sizing: border-box;
+    
+
+}
+#arrivals .arrivalsitems .item .img-box .inner-items .inner-item:last-child p{
+    font-weight: 700;
+}
+#arrivals .arrivalsitems .item:hover .img-box .inner-items{
+    visibility: visible;
+    opacity: 1;
+}
+#arrivals .right-arrow {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    right: 0;
+}
+#arrivals .left-arrow{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    left: 0;
+    z-index: 1;
+}
+/* =================
+Arrivals css end  
+==================== */
+/* =================
+sellers css end  
+==================== */
+#sellers{
+    margin-top: 116px;
+}
+#sellers .selleritem{
+    display: flex;
+    column-gap: 40px;
+}
+#sellers .title h2{
+    font-size: 39px;
+    margin-bottom: 48px;
+    
+}
+#sellers .selleritem .item {
+    position: relative;
+    width: 24%;
+}
+#sellers .selleritem .item img{
+    width: 100%;
+}
+#sellers .selleritem .item h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#sellers .selleritem .item .selleritem{
+    column-gap: 40px;
+}
+#sellers .selleritem .item .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+#sellers .selleritem .item a{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 9px 32px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/* =================
+sellers css end  
+==================== */
+/* =================
+time css start
+==================== */
+#time {
+    margin-top: 130px;
+    margin-bottom: 128px;
+}
+#time .timeitems{
+    background: url("../images/timebg.png") no-repeat bottom;
+    background-size: cover;
+    height: 370px;
+    padding-left: 175px;
+}
+
+#time .flex{
+
+    padding: 60px 0;
+    justify-content: center;
+}
+#time .right h2{
+    font-size: 39px;
+    color: #262626;
+}
+#time .right p{
+    color: #262626;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 38px;
+    width: 511px;
+}
+#time .right a{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 58px;
+    margin-top: 50px;
+   
+}
+/* =================
+time css end
+==================== */
+/* =================
+Offer css start
+==================== */
+#offer{
+    margin-top: 116px;
+    margin-bottom: 140px;
+}
+#offer .offeritem{
+    display: flex;
+    column-gap: 40px;
+}
+#offer .title h2{
+    font-size: 39px;
+    margin-bottom: 48px;
+    
+}
+#offer .offeritem .item {
+    position: relative;
+    width: 24%;
+}
+#offer .offeritem .item img{
+    width: 100%;
+}
+#offer .offeritem .item h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#offer .offeritem .item .selleritem{
+    column-gap: 40px;
+}
+#offer .offeritem .item .flex{
+    justify-content: space-between;
+    align-items: center;
+}
+#offer .offeritem .item a{
+    background-color: #262626;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 9px 32px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/* =================
+Offer css end
+==================== */
+/* =================
+footer css start
+==================== */
+footer{
+    background: #F5F5F3 ;
+    padding: 55px 0;
+}
+footer .footeritems{
+    display: flex;
+    column-gap: 144px ;
+   
+}
+
+footer .footeritems .item h4{
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+footer .footeritems .item ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6D6D;
+}
+
+footer .footeritems .item p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+footer .footeritems .logo{
+    margin: 0 auto;
+}
+footer .footeritems .item span{
+    color: #6D6D6D;
+}
+footer .footer-bottom {
+    padding-top: 65px;
+    
+}
+footer .footer-bottom .flex{
+    justify-content: space-between;
+}
+footer .footer-bottom .left .flex{
+    column-gap: 26px;
+}
+footer .footer-bottom .right p{
+    color: #6D6D6D;
+
+}
+/* =================
+Footer css end
+==================== */
