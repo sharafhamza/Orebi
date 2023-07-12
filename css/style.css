@@ -56,8 +56,17 @@ nav .demo{
     width: 20%;
     
 }
+nav .navitems ul li a{
+    color: #262626;
+}
 .navber-first{
     padding: 32px 0;
+}
+nav .navber-first input{
+    display: none;
+}
+nav .navber-first label{
+    display: none;
 }
 .navber-bottom{
     background-color: #F5F5F3;
@@ -138,6 +147,8 @@ nav .demo{
     width: 10px;
   
 }
+
+
 
 /* =================
 Navber css end  
@@ -246,82 +257,24 @@ sale css start
     margin-bottom: 124px;
 }
 #sale .left{
-    background: url("../images/sale left.png") no-repeat bottom;
-    background-size: cover;
-    width: 50%;
-    height: 780px;
-    padding-left: 64px;
-    padding-bottom: 72px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-end;
+  
 }
-#sale .left h2{
-    font-size: 39px;
-}
-#sale .left p, .right .boxone p, .right .boxtwo p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #6D6D6D;
-    display: flex;
-    align-items: center;
-    margin-top: 36px;
-}
-#sale .left p span, .right .boxone p span, .right .boxtwo p span{
-    font-size: 40px;
-    font-weight: 700;
-    color: #262626;
-}
-#sale .left a{
-    background-color: #262626;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 16px 58px;
-    margin-top: 65px;
-}
+
 #sale .right{
- 
-    width: 50%;
-    height: 780px;
   
 }
 #sale .flex{
     column-gap: 40px;
 }
 #sale .right .boxone{
-    height: 370px;
-    background: url("../images/right\ boxone.png");
-    background-size: cover;
+
     margin-bottom: 40px;
-    padding-left: 50px;
-    padding-bottom: 66px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-end;
-}
-#sale .right .boxone h2, .boxtwo h2{
-    font-size: 39px;
-    color: #262626;
+
 }
 
-#sale .right .boxone a, .boxtwo a{
-    background-color: #262626;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 16px 58px;
-    margin-top: 49px;
-}
+
 #sale .right .boxtwo{
-    height: 370px;
-    background: url("../images/right\ boxtwo.png");
-    background-size: cover;
-    padding-left: 50px;
-    padding-bottom: 66px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-end;
+
 }
 
 
