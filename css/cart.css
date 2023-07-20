@@ -290,6 +290,9 @@ cart css start
 #cart .carttotals .right .inner-item .bc{
     color: #262626;
 }
+.cart-mobile{
+    display: none;
+}
 /* =================
 cart css end
 ==================== */

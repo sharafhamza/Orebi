@@ -25,6 +25,12 @@ a{
 span{
     display: inline-block;
 }
+#filterbar {
+    display: none;
+}
+.shopflex label{
+    display: none;
+}
 /* =================
 common css end
 ==================== */
@@ -45,7 +51,8 @@ common css end
 #main .title ul li img{
     width: 10px;
 }
-#main .flex{
+#main .shopflex{
+    display: flex;
     column-gap: 40px;
 }
 /*===================== sideber=============== */
